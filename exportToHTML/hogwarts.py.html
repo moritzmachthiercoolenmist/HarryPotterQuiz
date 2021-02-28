@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>hogwarts.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+hogwarts.py</font>
+</center></td></tr></table>
+<pre><span class="s0">#Harry Potter Test</span>
+<span class="s0">#ik das ist jetzt nicht das Galgenmann spiel xd ich dachte es wäre doch cooler nochmal was anderes zu probieren xd</span>
+
+<span class="s1">print(</span><span class="s2">&quot; Dies ist das Quiz der Hogwarts Häsuer. Der magische Hut, wird anhand deiner Entscheidungen, ein Haus für dich erwählen. _/-\_&quot;</span><span class="s1">)</span>
+<span class="s0"># quizhauptmatrix</span>
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">) </span>
+<span class="s1">score = </span><span class="s4">0</span>
+
+<span class="s0">#Frage 1</span>
+<span class="s1">answer1 = input(</span><span class="s2">&quot;Es geht los! Dir wird der magische Hut auf den Kopf gesetzt – Hmmm, was soll ich nur mit dir machen??? </span><span class="s3">\n</span><span class="s2">a. Lass dir Zeit ;-) </span><span class="s3">\n</span><span class="s2">b. Ich kann ja in der Zwischenzeit ein Buch lesen. </span><span class="s3">\n</span><span class="s2">c. Nicht Slytherin, nicht Slytherin,... </span><span class="s3">\n</span><span class="s2">d. Ist doch klar! </span><span class="s3">\n</span><span class="s2">Antwort: &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer1 == </span><span class="s2">&quot;b&quot; </span><span class="s3">or </span><span class="s1">answer1 == </span><span class="s2">&quot;Ich kann ja in der Zwischenzeit ein Buch lesen.&quot;</span><span class="s1">:</span>
+    <span class="s1">score += </span><span class="s4">1</span>
+    <span class="s1">print(</span><span class="s2">&quot;Du scheinst mir ja ein ganz schlauer zu sein!&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">, </span><span class="s1">score)</span>
+    <span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">) </span><span class="s0">#Leerzeile</span>
+<span class="s3">else</span><span class="s1">: print(</span><span class="s2">&quot;Hahah... Ich glaube deine Eltern sind Muggel.&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">,</span><span class="s1">score)</span>
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)  </span><span class="s0">#Leerzeile</span>
+
+<span class="s0">#Frage 2</span>
+<span class="s1">answer1 = input(</span><span class="s2">&quot;Welche der folgenden Eigenschaften ist dir besonders wichtig? </span><span class="s3">\n</span><span class="s2">a. Ruhm </span><span class="s3">\n</span><span class="s2">b. Treue </span><span class="s3">\n</span><span class="s2">c. Mut </span><span class="s3">\n</span><span class="s2">d. Weisheit </span><span class="s3">\n</span><span class="s2">Antwort: &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer1 == </span><span class="s2">&quot;c&quot; </span><span class="s3">or </span><span class="s1">answer1 == </span><span class="s2">&quot;Mut&quot;</span><span class="s1">:</span>
+    <span class="s1">score += </span><span class="s4">1</span>
+    <span class="s1">print(</span><span class="s2">&quot;Aus dir kann mal ein richtiger Zauberer werden.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">, </span><span class="s1">score)</span>
+    <span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">) </span><span class="s0">#Leerzeile</span>
+<span class="s3">else</span><span class="s1">: print(</span><span class="s2">&quot;Naja ein echter Gryffindor wirst du bestimmt nicht. &quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">,</span><span class="s1">score)</span>
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)  </span><span class="s0">#Leerzeile</span>
+
+<span class="s0">#Frage 3</span>
+<span class="s1">answer1 = input(</span><span class="s2">&quot;Welche magische Kraft hättest du am liebsten? </span><span class="s3">\n</span><span class="s2">a. Parselmund </span><span class="s3">\n</span><span class="s2">b. Gedankenlesen </span><span class="s3">\n</span><span class="s2">c. Unsichtbarkeit </span><span class="s3">\n</span><span class="s2">d. Verwandlung </span><span class="s3">\n</span><span class="s2">Antwort: &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer1 == </span><span class="s2">&quot;a&quot; </span><span class="s3">or </span><span class="s1">answer1 == </span><span class="s2">&quot;Parselmund&quot;</span><span class="s1">:</span>
+    <span class="s1">score += </span><span class="s4">1</span>
+    <span class="s1">print(</span><span class="s2">&quot;Da hat wohl jemand schon die Künste der dunklen Magie kennengelernt.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">, </span><span class="s1">score)</span>
+    <span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">) </span><span class="s0">#Leerzeile</span>
+<span class="s3">else</span><span class="s1">: print(</span><span class="s2">&quot;Noch nicht einmal eine Stunde in diesem Haus und schon an Schabernack denken. Scheeren Sie sich fort. &quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">,</span><span class="s1">score)</span>
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)  </span><span class="s0">#Leerzeile</span>
+
+<span class="s0">#Frage 4</span>
+<span class="s1">answer1 = input(</span><span class="s2">&quot;Welches Haustier hast du junger Freund in diese heiligen Hallen gebracht?  </span><span class="s3">\n</span><span class="s2">a. Ich hasse Tiere. </span><span class="s3">\n</span><span class="s2">b. Ein Kröte macht nicht viel Arbeit. </span><span class="s3">\n</span><span class="s2">c. Eine graue Ratte. </span><span class="s3">\n</span><span class="s2">d. Eine Schleiereule. </span><span class="s3">\n</span><span class="s2">Antwort: &quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s1">answer1 == </span><span class="s2">&quot;d&quot; </span><span class="s3">or </span><span class="s1">answer1 == </span><span class="s2">&quot;Eine Schleiereule.&quot;</span><span class="s1">:</span>
+    <span class="s1">score += </span><span class="s4">1</span>
+    <span class="s1">print(</span><span class="s2">&quot;Gute Wahl! Passen Sie aber auf das Gefieder auf, denn sonst landet der Vogel in der Küche. &quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">, </span><span class="s1">score)</span>
+    <span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">) </span><span class="s0">#Leerzeile</span>
+<span class="s3">else</span><span class="s1">: print(</span><span class="s2">&quot;Oh schrecklich! Sind Sie zufällig mit den rothaarigen Unglückswesen der Weasleys verwandt.&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Wert des Schülers:&quot;</span><span class="s3">,</span><span class="s1">score)</span>
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)  </span><span class="s0">#Leerzeile</span>
+
+
+<span class="s0">#ergbenismatrize</span>
+<span class="s3">if </span><span class="s1">score &lt;= </span><span class="s4">1</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Naja mit Zaubern sieht es bei Ihnen schlecht aus. Versuchen Sie trotzdem ihr bestes in Hufflepuff.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dein gesamt Wert als Schüler beträgt:&quot;</span><span class="s3">, </span><span class="s1">score</span><span class="s3">, </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+<span class="s3">elif </span><span class="s1">score == </span><span class="s4">2</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Fast wäre es ein Slytherin geworden, leider sehe ich da doch ein wenig Muggelblut. Du schläfst ab sofort im Schlafsaal der Ravenclaw.&quot;</span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dein gesamt Wert als Schüler beträgt:&quot;</span><span class="s3">, </span><span class="s1">score</span><span class="s3">, </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+
+<span class="s3">elif </span><span class="s1">score == </span><span class="s4">3</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Es ist eindeutig! Schon an der Spitze ihres Zauberstabes kann ich das ablesen. Ein neuer Slytherin! &quot;</span><span class="s1">) </span><span class="s0">#etwas zweideutig ik aber mir ist nichts besseres eingefallen ;-)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dein gesamt Wert als Schüler beträgt:&quot;</span><span class="s3">, </span><span class="s1">score</span><span class="s3">, </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Ich sehe das potential eines neuen Potters. Fantastisch. Sie sind ein echter Gryffindor! &quot; </span><span class="s1">)</span>
+    <span class="s1">print(</span><span class="s2">&quot;Dein gesamt Wert als Schüler beträgt:&quot;</span><span class="s3">, </span><span class="s1">score</span><span class="s3">, </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+
+<span class="s1">print(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Nun ist es Zeit deinen Koffer zu schnappen und deine neue Schule zu erkunden. &quot;</span><span class="s1">)</span>
+
+</pre>
+</body>
+</html>
